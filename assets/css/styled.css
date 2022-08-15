@@ -1,0 +1,67 @@
+.post-title a {
+  color: var(--gray);
+}
+
+.title-berita {
+  color: var(--gray);
+}
+.title-berita:hover {
+  color: #212631;
+  text-decoration: underline;
+  outline: none;
+}
+.berita {
+  color: #3a3a3a;
+  font-weight: 600;
+}
+
+.latest-news a {
+  color: var(--light);
+}
+
+/* footer */
+
+.footer-bottom .col h3 {
+  text-align: center;
+}
+
+.footer-links {
+  margin: auto;
+}
+
+.footer-links li a {
+  margin: 10px 0 0 0;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: darkgray;
+}
+.footer-links li a:hover {
+  margin: auto;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  color: dimgray;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-eye::before {
+  content: "\f06e";
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* berita lainnya */
