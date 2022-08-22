@@ -66,6 +66,25 @@ h5 .latest-news a {
   background-color: var(--yellow);
 }
 
+/* img */
+.grid-margin img {
+  display: flex;
+  margin: auto;
+}
+
+.grid-margin audio {
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+/* program acara */
+.post-meta {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
 /* courosel */
 
 .carousel-inner img {

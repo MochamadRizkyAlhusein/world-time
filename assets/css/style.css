@@ -526,6 +526,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  margin: auto;
   border-radius: 0.25rem;
 }
 .img-fluid:hover {
