@@ -116,6 +116,7 @@ h6 {
 }
 
 p {
+  font-family: "Roboto", sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -188,7 +189,8 @@ sup {
 }
 
 a {
-  color: dimgrey;
+  color: var(--gray-dark);
+  font-weight: 500;
   text-decoration: none;
   background-color: transparent;
 }
@@ -530,9 +532,6 @@ mark,
   border-radius: 0.25rem;
 }
 .img-fluid:hover {
-  max-width: 103%;
-  height: auto;
-  transition: 0.5s;
   cursor: pointer;
 }
 
